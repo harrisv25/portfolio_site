@@ -1,11 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="Landing-Page">
+      <div className="App-header" style={{ 
+      backgroundImage: `url("https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350")` 
+    }}>
+          <p>
+            Hello! I'm <br>
+            </br>Vance Harris<br></br>
+            And I am a GIS developer
+          </p>
+        </div>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,7 +27,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
