@@ -9,15 +9,12 @@
 } */
 
 /* 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-} */
+} */ */
 
-/* body {
-  background-color: blue;
-} */
 
 .App-header {
   background-color: #282c34;
@@ -62,12 +59,12 @@ body, html {
 }
 
 .landingimg-1 {
-  background-image: url("https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350");
-  min-height: 100vh;
+  background-image: url(../public/images/B3E18D2A-5984-4B05-BF6D-EC3B491105BB.JPG);
+  min-height: 85vh;
 }
 
 .landingimg-2 {
-  background-image: url("https://i.imgur.com/3aXUaEi.jpg");
+  background-image: url(../public/images/IMG_2992.jpg);
 
   min-height: 40vh;
 }
