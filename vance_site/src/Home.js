@@ -51,9 +51,11 @@ const useAnimation = (ref) => {
             opacity:0,
             transform: "scale(0.5)"
         }
-    ]
-    })
-}
+    ],
+    ref: ref
+    });
+    return spring;
+};
 export default Home;
 
 
